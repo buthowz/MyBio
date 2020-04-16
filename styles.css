@@ -1,0 +1,44 @@
+/*My Bio's style*/
+body { background-color: green; }
+/*Master to control the whole page*/
+#Master { font-style: Verdana; width: 1200px; margin-left: auto; margin-right: auto; background: rgb(255,255,255); padding-left: 5px; padding-right: 5px;
+border-left: 1px solid rgb(200,200,200); border-right: 1px solid rgb(200,200,200); margin-top: -10px; margin-bottom: -10px;
+}
+
+header { background-color: yellow; width: 1200px; height: 155px; }
+  .panaromaPic { width: 1200px; height: 155px; }
+/*Navigation bar*/
+nav { background-color: rgb(50,50,50); width: 1200px; height: 30px; padding: 7px 0px; text-align: center; }
+  nav ul { margin: 0; padding: 0;  }
+  nav li { font-size: 30px; display: inline; font-weight: bold; list-style-type: none; margin-right: 100px; margin-bottom: 5px; }
+  nav a:link { text-decoration: none; }
+  nav a:visited { color: rgb(230,0,0) }
+  nav a:hover { color: rgb(0, 180, 30); }
+
+article { background-color: rgb(255,255,255); width: 1180px; margin-bottom: 10px; padding-left: 10px; padding-right: 10px; }
+  .ProfilePic { border: 3px solid rgb(40, 190, 190); width: 200px; height: 245px; float: left; margin-right: 20px; margin-left: -5px; box-shadow: 8px 8px 5px rgba(0,0,0,0.4); }
+  #LocationMap { border: 1px solid rgb(0, 81, 124); float: left; margin-bottom: 10px; }
+  article ul { line-height: 40px; float: left; font-size: 30px; }
+  #HobbiesBox { width: 800px; height: 400px; background: rgb(180, 5, 0); margin-left: 220px; margin-top: 20px; padding-bottom: 10px; }
+  .PictureSetting { width: 800px; height: 700px; background-color: white; margin: 20px 175px; }
+/*Feature Box settings*/
+.FeatureBox { background-color: rgb(0,81,124); font-style: oblique; width: 370px; height: 475px; float: left; margin-right: 20px; margin-bottom: 10px; padding: 10px 8px; }
+  .FeatureBoxTitle {position:absolute; width: 360px; height: 30px; margin-left: 4px; }
+  .FeatureBoxImage { width: 360px; height: 130px; margin-left: 4px; margin-top: 33px; box-shadow: 10px 10px 5px rgba(0,0,0,0.4); }
+
+footer { background-color: rgb(100, 100, 150); width: 1194px; height: 50px; clear: both; padding: 3px 3px; }
+  .footerFont { font-weight: bold; text-align: center; font-size: 15px; padding-top: 10px; }
+
+h1, h2 { color: rgb(120, 0, 200); margin-bottom: -15px; }
+
+p { font-size: 18px; line-height: 30px; text-indent: 40px; }
+
+.FirstParagraph { font-style: italic; font-weight: bold; color: rgb(120, 0, 100); }
+.Emphasis { font-style: italic; font-weight: bold; color: green; }
+.Highlighter { font-weight: bold; background: yellow; }
+.text-muted { font-family: cursive; font-weight: lighter; color: rgb(0, 90, 90); float:right; }
+
+/*Controlling table in education.html*/
+table { font-size: 22px; font-family: fantasy; background: rgb(0, 81, 124); color: white; }
+th { font-size: 26px; }
+td { text-align: center; }
